@@ -1,0 +1,44 @@
+.img__containers{
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    background-image: url("https://img.freepik.com/free-photo/diversity-students-graduation-success-celebration-concept_53876-26400.jpg?t=st=1656781272~exp=1656781872~hmac=975cedb4d1c8c6216f9a611b84a4456bc14c4f1ea64b2330958722d1546b0d3c&w=740");
+    background-size: cover;
+    background-position: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    animation: slider 20s infinte;
+}
+.img__contain{
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    overflow: hidden;
+    background-image: url("https://img.freepik.com/free-photo/diversity-students-graduation-success-celebration-concept_53876-26400.jpg?t=st=1656781272~exp=1656781872~hmac=975cedb4d1c8c6216f9a611b84a4456bc14c4f1ea64b2330958722d1546b0d3c&w=740");
+    background-size: cover;
+    background-position: 100%;
+    display: flex;
+    align-items: center;
+    animation: slider 20s infinte;
+}
+.img__cont{
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    overflow: hidden;
+    background-image: url("https://img.freepik.com/free-photo/diversity-students-graduation-success-celebration-concept_53876-26400.jpg?t=st=1656781272~exp=1656781872~hmac=975cedb4d1c8c6216f9a611b84a4456bc14c4f1ea64b2330958722d1546b0d3c&w=740");
+    background-size: cover;
+    background-position: 100%;
+    display: flex;
+    align-items: center;
+    animation: slider 20s infinte;
+}
+@keyframes slider {
+    left{
+        transform: rotateX(10deg);
+    }
+    right{
+        transform: rotateX(100deg);
+    }
+}
